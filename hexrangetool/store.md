@@ -2,7 +2,7 @@
 title: Hex Range
 description: Hex range areas for Owlbear Rodeo — click anywhere on a hex grid to instantly display accurate range zones.
 author: Pulpscape
-image: https://raw.githubusercontent.com/jjsoini/obr-extension-store/main/hexrangetool/header.jpg
+image: https://raw.githubusercontent.com/jjsoini/obr-extensions-store/main/hexrangetool/header.jpg
 icon: https://obr-hexrangetool.onrender.com/logo.png
 tags:
   - tool
