@@ -9,6 +9,9 @@ tags:
 manifest: https://obr-hexrangetool.onrender.com/manifest.json
 learn-more: https://github.com/jjsoini/obr-hexrangetool
 ---
+# About
+
+Owlbear Rodeo hex range plugin forked from Owlbear Rodeo's Ranges plugin.
 
 # Hex Range
 
