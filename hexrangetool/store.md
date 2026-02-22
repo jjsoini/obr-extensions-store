@@ -26,3 +26,7 @@ Select the Hex Range mode from the measure tool (shortcut: **H**).
 ## Settings
 
 Create your custom presets in the Settings
+
+## Patreon
+
+Support my work and get cool maps and assets by subscribing to [Pulpscape on Patreon](https://www.patreon.com/pulpscape).
