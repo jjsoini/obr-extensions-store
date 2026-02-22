@@ -14,36 +14,45 @@ learn-more: https://www.patreon.com/pulpscape/
 
 # Combat Tracker
 
-Simple system-agnostic combat tracker with turn order, HP tracking, drag-and-drop reordering, and a simplified player view.
+## How to Use
 
-**Adding Tokens**
+### Adding tokens to the tracker
 
-Select one or more tokens on the map and select Add to Tracker on the tracker or in the Context Menu.
+Select all tokens you want to add and use the **Add token** button on the popover, or select *Add to Tracker** from the context menu.
 
-**Renaming tokens and Matching Player tokens**
+### Tracking HP for NPCs
+Add a value to the field on the right side of the row to track a value (ie. HP) for NPCs.
 
-You can rename any token added to the tracker. Tracker recognizes tokens with a name that matches a Player name in the room.  Players can only see the player tokens. During combat, players see 'GM's turn' in place of individual NPCs. 
+### Turn tracking during combat
 
-**Turn Order**
+Drag rows to reorder the list to reflect the turn order during combat. Dragging a row on top of another row swaps the places.
 
-Click the turn button at the top of the list to start combat and move the turn indicator, or click on small turn indicator on the left of each row.
+Initiate combat by clicking the button at the top of the list. Clicking the button advances the turn, or you can click the small turn indicator on any row.
 
-Drag rows to reorder. Swap places by dragging over another row.
+### Player tokens
 
-**HP and Notes**
+Tokens that match a player name are visible in Player view.
 
-Track HP or desired value for each NPC. You can use the arrow keys to increment or decrement the value. Add other notes below the character's name.
+### Player view
 
-**Dead & Condition Markers**
+Players can see only the player tokens on the tracker. During combat, NPC rows are collapsed into "GM" rows. Players can click rows to center their view and edit notes on player tokens.
 
-You can mark the character Dead (draws a red cross on the map token) or add a custom condition by clicking the small + icon. To use your custom markers, place an item named Character Markers in your scene and attach your marker images to it. Tip: save your markers as a Prefab.
+### Renaming tokens
 
-**Player View**
+You can easily rename tokens in the popover.
 
-Players see only their own tokens. During combat, NPC rows are collapsed into a single *GM* row so players can follow the turn order without seeing enemy details. Players can click their token to centre the view and edit their own notes.
+### Which Bandit is this?
 
-**Viewport Centering and Highlighting**
+Selecting a token on the map highlights the character in the tracker.
 
-Click any row to center the viewport on that token. *Shift-click* centers and syncs the view for players.
+### Viewport centering 
 
-Selecting a token on the map highlights the matching row in the tracker.
+Clicking a character on the tracker centers the viewport on it. **Shift + click** centers and syncs the view with players.
+
+### 'Dead' & custom condition markers
+
+Use the Add (+) button in the tracker to mark the token Dead or add a custom condition marker. To add custom markers, create an item on your Scene named **Character markers** (case-insensitive) and Attach your own markers to it. It's a good idea to **create a Prefab** for your set of markers.
+
+## System-agnostic
+
+I've opted to leave out initiative number -based sorting or labeling the row value to "HP" because the tracker is system-agnostic.
