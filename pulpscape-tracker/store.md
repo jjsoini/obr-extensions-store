@@ -5,9 +5,7 @@ author: Pulpscape
 image: https://pulpscape-tracker.onrender.com/header.jpg
 icon: https://pulpscape-tracker.onrender.com/logo.png
 tags:
-  - pulpscape
   - combat
-  - tracker
 manifest: https://pulpscape-tracker.onrender.com/manifest.json
 learn-more: https://www.patreon.com/pulpscape/
 ---
